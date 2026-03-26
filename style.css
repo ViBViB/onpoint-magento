@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Avenir';
-    src: url('assets/fonts/Avenir.ttc');
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
     /* Brand Colors */
     --color-brand-primary: #1b2141;
@@ -20,7 +13,7 @@
     --container-width: 1300px;
     --footer-container-width: 1660px;
     --features-container-width: 1600px;
-    --font-main: 'Avenir', sans-serif;
+    --font-main: 'Montserrat', sans-serif;
 
     /* FLUID TYPOGRAPHY SYSTEM (ADJUSTED MAX LIMITS) */
     --fluid-scale-308: 3.08vw;
@@ -102,7 +95,7 @@ h3 {
     transition: transform 0.2s ease, opacity 0.2s ease;
     cursor: pointer;
     border: none;
-    font-family: 'Avenir', sans-serif;
+    font-family: var(--font-main);
 }
 
 .c-btn--brand {
